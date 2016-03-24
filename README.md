@@ -9,3 +9,5 @@ The user can test the game using different starting positions. To switch the pos
 
 3) Change the maximum search depth
 The maximum search depth is set at 5, by default. To change the depth, refer to MinimaxAI.java and look at the instance variables at the top. There is a final int MAX_DEPTH; the user may choose to increase or decrease this value. Please note that increasing MAX_DEPTH will increase the computation time needed for the AI to make a move.
+
+Note: This project uses an external Chess library, Chesspresso. Please make sure that the .jar file is included in the referenced libraries before running the Chess game.
